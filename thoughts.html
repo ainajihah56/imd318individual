@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Thoughts - Aina" />
+    <meta name="keywords" content="Aina, thoughts, blog" />
+    <meta name="author" content="Aina" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thoughts - Aina</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f4ee;
+            color: #4a4a4a;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffffff;
+            color: #b08d57;
+            padding: 20px;
+            font-size: 4.5em;
+            font-weight: 700;
+            letter-spacing: 1px;
+            border-bottom: 1px solid #ddd;
+            font-family: 'Playfair Display', serif;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f9f4ee;
+            padding: 30px 0;
+        }
+        nav a {
+            margin: 0 13px;
+            text-decoration: none;
+            color: #4a4a4a;
+            font-size: 0.9em;
+            font-weight: 500;
+            transition: color 0.3s ease, border-bottom 0.3s ease;
+            border-bottom: 2px solid transparent;
+        }
+        nav a:hover {
+            color: #b08d57;
+            border-bottom: 2px solid #b08d57;
+        }
+        main {
+            padding: 40px;
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        h2 {
+            font-size: 2.5em;
+            color: #b08d57;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #eae0d5;
+            color: #4a4a4a;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9em;
+            margin-top: 50px;
+            border-top: 1px solid #ddd;
+        }
+        footer p {
+            margin: 5px;
+        }
+
+      
+        .recent-posts, .search, .social-media, .comments, .newsletter, .categories {
+            background-color: #fff;
+            padding: 30px 20px;
+            margin-top: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .recent-posts h3, .categories h3, .social-media h3, .newsletter h3 {
+            font-size: 2em;
+            color: #b08d57;
+            margin-bottom: 20px;
+        }
+
+        .recent-posts ul, .categories ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .recent-posts li, .categories li {
+            margin: 10px 0;
+        }
+
+        .recent-posts a, .categories a {
+            text-decoration: none;
+            color: #4a4a4a;
+            font-size: 1.2em;
+        }
+
+        .recent-posts a:hover, .categories a:hover {
+            color: #b08d57;
+        }
+
+        .search input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            margin-right: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .search button {
+            padding: 10px 20px;
+            background-color: #b08d57;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .search button:hover {
+            background-color: #9e7d4e;
+        }
+
+        .social-media a {
+            margin: 0 15px;
+            color: #4a4a4a;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
+
+        .social-media a:hover {
+            color: #b08d57;
+        }
+
+        .comments textarea {
+            width: 80%;
+            height: 150px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .comments button {
+            padding: 10px 20px;
+            background-color: #b08d57;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .comments button:hover {
+            background-color: #9e7d4e;
+        }
+
+        .newsletter input[type="email"] {
+            width: 80%;
+            padding: 10px;
+            margin-right: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .newsletter button {
+            padding: 10px 20px;
+            background-color: #b08d57;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .newsletter button:hover {
+            background-color: #9e7d4e;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        Thoughts
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="family.html">Family</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <h2>My Blog</h2>
+        <p>Here are some of my personal reflections and thoughts.</p>
+        <p><strong>November 2024:</strong> I’ve been exploring new hobbies and rediscovered my love for reading.</p>
+        <p><strong>December 2024:</strong> This year taught me the importance of perseverance and growth.</p>
+
+     
+        <section class="recent-posts">
+            <h3>Recent Thoughts</h3>
+            <ul>
+                <li><a href="#">Reflections on Creativity</a> - A journey of rediscovering passion in new hobbies.</li>
+                <li><a href="#">The Power of Mindfulness</a> - Exploring the benefits of mindful living.</li>
+                <li><a href="#">Overcoming Challenges</a> - Lessons learned during difficult times.</li>
+            </ul>
+        </section>
+
+     
+        <section class="search">
+            <h3>Search Thoughts</h3>
+            <input type="text" placeholder="Search thoughts..." />
+            <button>Search</button>
+        </section>
+
+   
+        <section class="social-media">
+            <h3>Share this post:</h3>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </section>
+
+       
+        <section class="comments">
+            <h3>Leave a Comment:</h3>
+            <textarea placeholder="Share your thoughts..."></textarea>
+            <button>Submit</button>
+        </section>
+
+      
+        <section class="newsletter">
+            <h3>Subscribe to My Newsletter</h3>
+            <p>Get the latest updates directly to your inbox.</p>
+            <input type="email" placeholder="Your email address" />
+            <button>Subscribe</button>
+        </section>
+
+       
+        <section class="categories">
+            <h3>Explore Topics</h3>
+            <ul>
+                <li><a href="#">Sewing</a></li>
+                <li><a href="#">Personal Growth</a></li>
+                <li><a href="#">Hobbies</a></li>
+                <li><a href="#">Reflections</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Aina. All rights reserved.</p>
+        <p>Recommended browser: Chrome, Firefox | Last updated: December 2024</p>
+        
+        <div class="footer-links">
+            <a href="https://instagram.com/aina" target="_blank">Instagram</a>
+            <a href="https://twitter.com/aina" target="_blank">Twitter</a>
+            <a href="mailto:ainajiha0605@gmail.com">Email</a>
+    </footer>
+</body>
+</html>

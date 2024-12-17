@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Gallery - Aina" />
+    <meta name="keywords" content="Aina, gallery, photos" />
+    <meta name="author" content="Aina" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery - Aina</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f4ee;
+            color: #4a4a4a;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffffff;
+            color: #b08d57;
+            padding: 20px 0;
+            font-size: 4.5em;
+            font-weight: 700;
+            letter-spacing: 1px;
+            border-bottom: 1px solid #ddd;
+            font-family: 'Playfair Display', serif;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffffff;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4a4a4a;
+            font-size: 0.9em;
+            font-weight: 500;
+            transition: color 0.3s ease, border-bottom 0.3s ease;
+            border-bottom: 2px solid transparent;
+        }
+        nav a:hover {
+            color: #b08d57;
+            border-bottom: 2px solid #b08d57;
+        }
+        main {
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        main h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            color: #b08d57;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px 0;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        .separator {
+            margin: 50px auto;
+            width: 60%;
+            height: 2px;
+            background: linear-gradient(to right, transparent, #b08d57, transparent);
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        video {
+            width: 60%;
+            max-width: 800px;
+            margin: 20px auto;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .gallery .caption {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+        .featured-gallery {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            gap: 20px;
+        }
+        .featured-gallery img {
+            width: 48%;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        footer {
+            background-color: #eae0d5;
+            color: #4a4a4a;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9em;
+            margin-top: 50px;
+            border-top: 1px solid #ddd;
+        }
+        footer p {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Gallery
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="family.html">Family</a>
+        <a href="thoughts.html">Thoughts</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <h2>My Favorite Moments</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="gallery1.jpg" alt="A beautiful sunset" />
+                <div class="caption">A Beautiful Sunset</div>
+            </div>
+            <div class="gallery-item">
+                <img src="gallery2.jpg" alt="A peaceful forest" />
+                <div class="caption">A Peaceful Forest</div>
+            </div>
+            <div class="gallery-item">
+                <img src="gallery3.jpg" alt="A memorable trip" />
+                <div class="caption">A Memorable Trip</div>
+            </div>
+            <div class="gallery-item">
+                <img src="gallery4.jpg" alt="Another special moment" />
+                <div class="caption">Another Special Moment</div>
+            </div>
+        </div>
+
+       
+        <div class="separator"></div>
+
+        <h2>Video Section</h2>
+        <video controls>
+            <source src="138individual/video/memories.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+       
+        <h2>Featured Moments</h2>
+        <div class="featured-gallery">
+            <img src="featured1.jpg" alt="Featured Image 1" />
+            <img src="featured2.jpg" alt="Featured Image 2" />
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Aina. All rights reserved.</p>
+        <p>Recommended browser: Chrome, Firefox | Last updated: December 2024</p>
+    </footer>
+        <div class="footer-links">
+            <a href="https://instagram.com/aina" target="_blank">Instagram</a>
+            <a href="https://twitter.com/aina" target="_blank">Twitter</a>
+            <a href="mailto:ainajiha0605@gmail.com">Email</a>
+        </div>
+</body>
+</html>
+

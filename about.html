@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="About Aina" />
+    <meta name="keywords" content="About, Aina, personal" />
+    <meta name="author" content="Aina" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me - Aina</title>
+    <style>
+   
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f4ee;
+            color: #4a4a4a;
+        }
+
+
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, rgba(176, 141, 87, 0.8), rgba(200, 150, 100, 0.8));
+            background-size: cover;
+            padding: 70px 0;
+            text-align: center;
+            color: #fff;
+            font-family: 'Playfair Display', serif;
+        }
+        header h1 {
+            font-size: 3.5em;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffffff;
+            border-bottom: 1px solid #ddd;
+            padding: 8px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4a4a4a;
+            font-size: 1.1em;
+            font-weight: 500;
+            transition: color 0.3s ease, border-bottom 0.3s ease;
+            border-bottom: 2px solid transparent;
+        }
+        nav a:hover {
+            color: #b08d57;
+            border-bottom: 2px solid #b08d57;
+        }
+
+        main {
+            padding: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        main h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            color: #b08d57;
+            margin-bottom: 20px;
+        }
+        main p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #ddd;
+            margin: 30px 0;
+        }
+
+
+        .photo-gallery {
+            padding: 40px 20px;
+            background-color: #fff;
+        }
+        .photo-gallery h3 {
+            font-size: 2em;
+            color: #b08d57;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+ 
+        .inspirations {
+            padding: 40px 20px;
+            background-color: #f9f4ee;
+        }
+        .inspirations h3 {
+            font-size: 2em;
+            color: #b08d57;
+            margin-bottom: 20px;
+        }
+        .inspirations blockquote {
+            font-size: 1.5em;
+            font-style: italic;
+            color: #4a4a4a;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-left: 5px solid #b08d57;
+            font-family: 'Playfair Display', serif;
+        }
+        .inspirations p {
+            font-size: 1.1em;
+            color: #4a4a4a;
+            line-height: 1.6;
+        }
+
+
+        .skills {
+            padding: 40px 20px;
+            background-color: #fff;
+        }
+        .skills h3 {
+            font-size: 2em;
+            color: #b08d57;
+            margin-bottom: 20px;
+        }
+        .skill-bar {
+            background-color: #f2f2f2;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        .skill {
+            background-color: #b08d57;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        /* Timeline Section */
+        .timeline {
+            padding: 40px 20px;
+            background-color: #f4f1e7;
+        }
+        .timeline h3 {
+            font-size: 2em;
+            color: #b08d57;
+            margin-bottom: 20px;
+        }
+        .timeline-item {
+            margin: 30px 0;
+        }
+        .timeline-item h4 {
+            font-size: 1.5em;
+            color: #b08d57;
+        }
+        .timeline-item p {
+            font-size: 1.1em;
+            color: #4a4a4a;
+            line-height: 1.6;
+        }
+
+    
+
+        footer {
+            background-color: #eae0d5;
+            color: #4a4a4a;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9em;
+            margin-top: 50px;
+            border-top: 1px solid #ddd;
+        }
+        footer p {
+            margin: 5px;
+        }
+        footer a {
+            color: #b08d57;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="thoughts.html">Thoughts</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Hello, I'm Aina!</h2>
+        <p>Welcome to my personal website. Here you can learn more about me, my hobbies, and what inspires me.</p>
+        <p>I love reading, crafting, and exploring new creative ideas. This journey has been fulfilling and fun, and I hope to share it with you!</p>
+
+        <hr />
+
+        <div class="photo-gallery">
+            <h3>Moments That Define Me</h3>
+            <div class="gallery">
+                <img src="reading.jpg" alt="Reading" />
+                <img src="photography.jpg" alt="Photography" />
+                <img src="travel.jpg" alt="Travel" />
+            </div>
+        </div>
+
+
+        <div class="inspirations">
+            <h3>My Inspirations</h3>
+            <blockquote>
+                "The only way to do great work is to love what you do." - Steve Jobs
+            </blockquote>
+            <p>I believe that passion is the key to everything. Whether it's reading, photography, or cooking, I pour my heart into everything I do.</p>
+        </div>
+
+
+        <div class="skills">
+            <h3>My Skills</h3>
+            <div class="skill-bar">
+                <div class="skill" style="width: 85%;">Reading</div>
+            </div>
+            <div class="skill-bar">
+                <div class="skill" style="width: 75%;">Photography</div>
+            </div>
+            <div class="skill-bar">
+                <div class="skill" style="width: 90%;">Creative Writing</div>
+            </div>
+        </div>
+
+       
+        <div class="timeline">
+            <h3>My Journey</h3>
+            <div class="timeline-item">
+                <h4>2015</h4>
+                <p>Started my journey with reading.</p>
+            </div>
+            <div class="timeline-item">
+                <h4>2018</h4>
+                <p>Started exploring photography and creative media.</p>
+            </div>
+            <div class="timeline-item">
+                <h4>2020</h4>
+                <p>Found a .</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Aina. All rights reserved.</p>
+        <p>Follow me: 
+
+        <div class="footer-links">
+            <a href="https://instagram.com/aina" target="_blank">Instagram</a>
+            <a href="https://twitter.com/aina" target="_blank">Twitter</a>
+            <a href="mailto:ainajiha0605@gmail.com">Email</a>
+        </p>
+    </footer>
+</body>
+</html>
